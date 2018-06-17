@@ -16,13 +16,14 @@
 		B31B47821EE5F39900C9F259 /* patchfinder64.c in Sources */ = {isa = PBXBuildFile; fileRef = B31B47801EE5F39900C9F259 /* patchfinder64.c */; };
 		B39A22191ECBB89D00F0EE23 /* unjail.m in Sources */ = {isa = PBXBuildFile; fileRef = B39A22171ECBB89D00F0EE23 /* unjail.m */; };
 		B3A27E571EE81A7500008AA7 /* dex.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3A27E561EE81A7500008AA7 /* dex.plist */; };
-		B3A302E51EF1C46900FAF9B6 /* libjb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A302E41EF1C46900FAF9B6 /* libjb.a */; };
-		B3A302E81EF1CA8300FAF9B6 /* bootstrap.dmg in Resources */ = {isa = PBXBuildFile; fileRef = B3A302E71EF1CA8300FAF9B6 /* bootstrap.dmg */; };
 		B3AE24D01EF006BF00F8BA15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AE24CF1EF006BF00F8BA15 /* AppDelegate.m */; };
 		B3AE24D31EF006CB00F8BA15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AE24D21EF006CB00F8BA15 /* ViewController.m */; };
 		B3AE24D61EF006E100F8BA15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AE24D51EF006E100F8BA15 /* main.m */; };
 		B3CEC24F1ECE1ADD00508B1A /* def.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3CEC24E1ECE1ADD00508B1A /* def.plist */; };
 		B3DE70BB1EDAD6280053D5BA /* offsets.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DE70B91EDAD6280053D5BA /* offsets.m */; };
+		D006B80320D607380036D82D /* getshell.c in Sources */ = {isa = PBXBuildFile; fileRef = D006B80120D607380036D82D /* getshell.c */; };
+		D006B80520D6074A0036D82D /* bootstrap.tar in Resources */ = {isa = PBXBuildFile; fileRef = D006B80420D6074A0036D82D /* bootstrap.tar */; };
+		D006B80720D607C70036D82D /* libjb.c in Sources */ = {isa = PBXBuildFile; fileRef = D006B80620D607C70036D82D /* libjb.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,9 +53,7 @@
 		B39A22171ECBB89D00F0EE23 /* unjail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = unjail.m; sourceTree = "<group>"; };
 		B39A22181ECBB89D00F0EE23 /* unjail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unjail.h; sourceTree = "<group>"; };
 		B3A27E561EE81A7500008AA7 /* dex.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dex.plist; sourceTree = "<group>"; };
-		B3A302E41EF1C46900FAF9B6 /* libjb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjb.a; sourceTree = "<group>"; };
 		B3A302E61EF1C47400FAF9B6 /* libjb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libjb.h; sourceTree = "<group>"; };
-		B3A302E71EF1CA8300FAF9B6 /* bootstrap.dmg */ = {isa = PBXFileReference; lastKnownFileType = file; path = bootstrap.dmg; sourceTree = "<group>"; };
 		B3AE24CE1EF006B900F8BA15 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B3AE24CF1EF006BF00F8BA15 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B3AE24D11EF006C500F8BA15 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -63,6 +62,10 @@
 		B3CEC24E1ECE1ADD00508B1A /* def.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = def.plist; sourceTree = "<group>"; };
 		B3DE70B91EDAD6280053D5BA /* offsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = offsets.m; sourceTree = "<group>"; };
 		B3DE70BA1EDAD6280053D5BA /* offsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = offsets.h; sourceTree = "<group>"; };
+		D006B80120D607380036D82D /* getshell.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = getshell.c; sourceTree = "<group>"; };
+		D006B80220D607380036D82D /* getshell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getshell.h; sourceTree = "<group>"; };
+		D006B80420D6074A0036D82D /* bootstrap.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; path = bootstrap.tar; sourceTree = "<group>"; };
+		D006B80620D607C70036D82D /* libjb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = libjb.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +73,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3A302E51EF1C46900FAF9B6 /* libjb.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,7 +99,10 @@
 		B0F37BBF1E361EAE00179E85 /* extra_recipe */ = {
 			isa = PBXGroup;
 			children = (
-				B3A302E71EF1CA8300FAF9B6 /* bootstrap.dmg */,
+				D006B80020D607010036D82D /* unjail */,
+				D006B7FF20D606DB0036D82D /* libjb */,
+				D006B7FE20D606D40036D82D /* getshell */,
+				D006B7FD20D606CB0036D82D /* bootstrap */,
 				B3AE24D21EF006CB00F8BA15 /* ViewController.m */,
 				B3AE24D11EF006C500F8BA15 /* ViewController.h */,
 				B3AE24CF1EF006BF00F8BA15 /* AppDelegate.m */,
@@ -110,12 +115,7 @@
 				B0F37BC71E361EAE00179E85 /* Assets.xcassets */,
 				B0F37BC91E361EAE00179E85 /* LaunchScreen.storyboard */,
 				B0F37BCC1E361EAE00179E85 /* Info.plist */,
-				B0F37BD31E361FCC00179E85 /* jailbreak.c */,
-				B39A22171ECBB89D00F0EE23 /* unjail.m */,
-				B3A302E41EF1C46900FAF9B6 /* libjb.a */,
-				B3A302E61EF1C47400FAF9B6 /* libjb.h */,
 				B3CEC24E1ECE1ADD00508B1A /* def.plist */,
-				B39A22181ECBB89D00F0EE23 /* unjail.h */,
 				B0F37BDD1E37AC0700179E85 /* load_regs_and_crash.s */,
 				B0E5165A1E39459300CE4C47 /* README */,
 				B3DE70B91EDAD6280053D5BA /* offsets.m */,
@@ -131,6 +131,42 @@
 			);
 			name = "Supporting Files";
 			path = extra_recipe;
+			sourceTree = "<group>";
+		};
+		D006B7FD20D606CB0036D82D /* bootstrap */ = {
+			isa = PBXGroup;
+			children = (
+				D006B80420D6074A0036D82D /* bootstrap.tar */,
+			);
+			path = bootstrap;
+			sourceTree = "<group>";
+		};
+		D006B7FE20D606D40036D82D /* getshell */ = {
+			isa = PBXGroup;
+			children = (
+				D006B80120D607380036D82D /* getshell.c */,
+				D006B80220D607380036D82D /* getshell.h */,
+			);
+			path = getshell;
+			sourceTree = "<group>";
+		};
+		D006B7FF20D606DB0036D82D /* libjb */ = {
+			isa = PBXGroup;
+			children = (
+				B3A302E61EF1C47400FAF9B6 /* libjb.h */,
+				D006B80620D607C70036D82D /* libjb.c */,
+			);
+			path = libjb;
+			sourceTree = "<group>";
+		};
+		D006B80020D607010036D82D /* unjail */ = {
+			isa = PBXGroup;
+			children = (
+				B39A22181ECBB89D00F0EE23 /* unjail.h */,
+				B39A22171ECBB89D00F0EE23 /* unjail.m */,
+				B0F37BD31E361FCC00179E85 /* jailbreak.c */,
+			);
+			path = unjail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,8 +201,8 @@
 				TargetAttributes = {
 					B0F37BBC1E361EAD00179E85 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 854G7LGZ42;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = C3F6B6U77S;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -193,11 +229,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D006B80520D6074A0036D82D /* bootstrap.tar in Resources */,
 				B0E5165B1E39459300CE4C47 /* README in Resources */,
 				B3CEC24F1ECE1ADD00508B1A /* def.plist in Resources */,
 				B0F37BCB1E361EAE00179E85 /* LaunchScreen.storyboard in Resources */,
 				B0F37BC81E361EAE00179E85 /* Assets.xcassets in Resources */,
-				B3A302E81EF1CA8300FAF9B6 /* bootstrap.dmg in Resources */,
 				B0F37BC61E361EAE00179E85 /* Main.storyboard in Resources */,
 				B3A27E571EE81A7500008AA7 /* dex.plist in Resources */,
 			);
@@ -215,9 +251,11 @@
 				B0F37BD51E361FCC00179E85 /* jailbreak.c in Sources */,
 				B31B47821EE5F39900C9F259 /* patchfinder64.c in Sources */,
 				B3AE24D31EF006CB00F8BA15 /* ViewController.m in Sources */,
+				D006B80320D607380036D82D /* getshell.c in Sources */,
 				B3AE24D01EF006BF00F8BA15 /* AppDelegate.m in Sources */,
 				B3DE70BB1EDAD6280053D5BA /* offsets.m in Sources */,
 				B39A22191ECBB89D00F0EE23 /* unjail.m in Sources */,
+				D006B80720D607C70036D82D /* libjb.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,8 +383,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 854G7LGZ42;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = C3F6B6U77S;
 				INFOPLIST_FILE = extra_recipe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -358,8 +398,10 @@
 					"-pagezero_size",
 					0x16000,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.extra-recipe";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.njcit.noncesetter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "70fb76f2-8c5d-4cb7-a389-c4e991d01f84";
+				PROVISIONING_PROFILE_SPECIFIER = njcitapp_development;
 			};
 			name = Debug;
 		};
@@ -368,8 +410,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 854G7LGZ42;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = C3F6B6U77S;
 				INFOPLIST_FILE = extra_recipe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -381,8 +425,10 @@
 					"-pagezero_size",
 					0x16000,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.extra-recipe";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.njcit.noncesetter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2f9ffe43-d23b-4e14-bcee-81010ecae711";
+				PROVISIONING_PROFILE_SPECIFIER = njcitapp_development;
 			};
 			name = Release;
 		};
